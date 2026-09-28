@@ -1,0 +1,18 @@
+{
+  "name": "enterprise-hybrid-forecasting-suite",
+  "version": "1.0.0",
+  "description": "A Data-Driven Hybrid Forecasting Framework Integrating SARIMAX and XGBoost with Sequential Residual Learning",
+  "scripts": {
+    "dev": "start http://127.0.0.1:8000 && py -m uvicorn backend.main:app --host 127.0.0.1 --port 8000 --reload",
+    "start": "py -m uvicorn backend.main:app --host 127.0.0.1 --port 8000"
+  },
+  "keywords": [
+    "sarimax",
+    "xgboost",
+    "time-series",
+    "forecasting",
+    "fastapi"
+  ],
+  "author": "",
+  "license": "ISC"
+}
